@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Case Study of Project 1</title>
+    <meta name="description" content="Case study page of Project" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="assets/img/deonteprice.jpeg"
+              alt="Deonte Price Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Deonte Price</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+            
+             <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+           
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Employee Directory</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            The Employee Directory application was designed to facilitate the search for company employees. It offers a user-friendly interface that allows users to easily locate employee profiles based on department and name. 
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="https://dprice17.github.io/employeedirectory/" class="btn btn--bg" target="_blank">Live Link</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <a href="https://dprice17.github.io/employeedirectory/" target="_blank">
+                <img
+                src="./assets/img/employeedirectory.png"
+                alt="Project Image"
+                class="project-details__showcase-img"
+              />
+            </a>
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                For this capstone project, I was tasked with creating an employee directory for a growing company. The directory comprises four departments: Leadership, Sales, Customer Service, and Product.</p>
+
+              <p class="project-details__desc-para">To begin, I received a dataset containing employee information such as name, department, and bio. Additionally, I was provided with a Figma file that outlined the design specifications. My responsibility was to build the entire design from scratch, incorporating the Figma design specifications and graphics.</p>
+
+              <p class="project-details__desc-para">One of the key requirements was to dynamically render each employee on the page using JavaScript and the provided employee data. Furthermore, I was required to implement a filtering feature that allows users to sort employees based on department.</p>
+
+              <p class="project-details__desc-para">In order to challenge myself and enhance the project, I decided to utilize React components for its development. Additionally, I incorporated a search feature, enabling users to easily search for employees by their names.</p>
+
+              <p class="project-details__desc-para">Considering the importance of responsiveness, I took the initiative to make the project compatible with various devices. By utilizing CSS grid, I ensured that the directory would appear visually appealing and well-organized across screens of all sizes.</p>
+              </p>
+              
+              <p class="project-details__desc-para">I encountered a significant challenge during this project: implementing real-time rendering of employee search results as the user types. This required extensive research and experimentation to find an optimal solution. Eventually, I discovered the slice() method, which proved to be the perfect tool for the task.</p>
+             
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Technologies Used</h3>
+              <div class="skills">
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">React</div>
+                <div class="skills__skill">GIT</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Live</h3>
+              <a
+                href="https://dprice17.github.io/employeedirectory/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/dprice17/employeedirectory.git"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/deonte-price-53248511a/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/dprice17">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <!---
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/img/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+              ---->
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Deonte Price</h4>
+            <p class="main-footer__short-desc">
+                 Looking for a skilled front-end developer? Contact me at pricedeonte2009@yahoo.com or connect with me on <a class="main-footer__short-desc__linkedIn-link" href="https://www.linkedin.com/in/deonte-price-53248511a/">LinkedIn</a>. 
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
